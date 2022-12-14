@@ -5,6 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Hiriczko_Andreea_Lab7"
     Shell.FlyoutBehavior="Disabled">
+
     <TabBar>
         <ShellContent
  Title="Welcome"
@@ -14,10 +15,10 @@
  Title="About"
  ContentTemplate="{DataTemplate local:AboutPage}"
  />
-        <ShellContent
- Title="My Shopping Lists"
- ContentTemplate="{DataTemplate local:ListEntryPage}"
- />
+        <ShellContent             
+Title="My Shopping Lists"             
+ContentTemplate="{DataTemplate local:ListEntryPage}"
+/>
     </TabBar>
 
 </Shell>

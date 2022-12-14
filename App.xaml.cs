@@ -1,8 +1,10 @@
 ﻿using System;
 using Hiriczko_Andreea_Lab7.Data;
 using System.IO;
-namespace Hiriczko_Andreea_Lab7;
 
+
+
+namespace Hiriczko_Andreea_Lab7;
 
 public partial class App : Application
 {
@@ -21,9 +23,9 @@ public partial class App : Application
         }
     }
     public App()
-	{
-		InitializeComponent();
+    {
+        InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+        MainPage = new AppShell();
+    }
 }
